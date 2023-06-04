@@ -1,0 +1,72 @@
+{
+  "api": [
+    {
+      "profile": {
+        "name": "",
+        "designation": "",
+        "email": "",
+        "phone": "",
+        "location": "",
+        "website": ""
+      },
+      "about": "",
+      "academics": {
+        "school": "",
+        "college": "",
+        "university": "",
+        "certifications": "",
+        "title": "",
+        "year": "",
+        "writeup": ""
+      },
+      "experience": {
+        "designation": "",
+        "organisation": "",
+        "tenure": "",
+        "location": ""
+      },
+      "projects": {
+        "title": "",
+        "tenure": "",
+        "url": "",
+        "description": ""
+      },
+      "skills": "",
+      "id": 11
+    },
+    {
+      "profile": {
+        "name": "Narendra Chawda",
+        "designation": "This is my designation",
+        "email": "ndx199@gmail.com",
+        "phone": "8130124194",
+        "location": "new de;hi",
+        "website": "ndr.com"
+      },
+      "about": "I am an engineering Graduate",
+      "academics": {
+        "school": "saraswati vidya mandir",
+        "college": "this is my college",
+        "university": "This is my university",
+        "certifications": "This is my certification",
+        "title": "this is my title",
+        "year": "1",
+        "writeup": "This is my write-up"
+      },
+      "experience": {
+        "designation": "",
+        "organisation": "This is my orgainisation",
+        "tenure": "1",
+        "location": ""
+      },
+      "projects": {
+        "title": "",
+        "tenure": "",
+        "url": "this is url",
+        "description": "This is Description"
+      },
+      "skills": "HTML, CSS, JAVASCRIPT, REACT. NODE, ",
+      "id": 12
+    }
+  ]
+}
