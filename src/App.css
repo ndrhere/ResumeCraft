@@ -122,4 +122,12 @@
   .resume-page label {
     margin-bottom: 5px;
   }
-  
+  .list{
+    text-decoration: none;
+    color: white;
+    line-height:3rem;
+  }
+  .list:hover{
+    color: yellow;
+    font-size:20px;
+  }

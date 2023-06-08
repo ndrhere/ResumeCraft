@@ -1,15 +1,37 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ResumeLink from './ResumeLink';
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 const MainPage = () => {
+  const [container, setContainer] = useState([])
+  const [name, setName] = useState([])
   const navigate = useNavigate()
   const handleClick = (event) =>{
     event.preventDefault();
     navigate('/addresume')
 
   }
-  const id = 12; 
+  
+  const fetchId = async () => {
+    const response = await fetch('/api')
+    const data = await response.json();
+    const getId = data.map((item)=>{
+      return item.id
+   })
+    const getName = data.map((item)=>{
+      return item.profile.name
+      })
+   setName(getName)
+   setContainer(getId)
+    console.log('data' , getId)
+    console.log('name', getName)
+
+  };
+  
+  useEffect(() => {
+    fetchId();
+  }, []);
 
   return (
    <div className="main-page">
@@ -22,7 +44,7 @@ const MainPage = () => {
         <button className=" btn btn-primary" style={{marginTop:"200"}} onClick={handleClick}>Add Resume</button>
 
         <h3  style={{color: "white", marginTop:"70px"}}>List of Resumes : </h3>
-        <ResumeLink resumeId={id} />
+        <ResumeLink resumeId={container} name={name}/>
   </div>
     </div>
   );

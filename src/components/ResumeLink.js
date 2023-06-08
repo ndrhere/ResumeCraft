@@ -1,15 +1,26 @@
 import React from 'react';
 
 const ResumeLink = (props) => {
-let{resumeId} = props;
+let{resumeId, name} = props;
 
-  const resumeUrl = `/api/${resumeId}`; 
+if(!resumeId){
+  console.log('resumeId is not available')
+}
 
-  return (
-    <div>
-      <span>1</span> <a href={resumeUrl}>Narendra Kumar Chawda</a>
+
+return(
+  <>
+ {resumeId.map((id, index)=>
+  (
+    <div key={index}>
+      <span style={{color:"white"}}>{index+1} {"  "}</span><a className="list"href={`/api/${id}`}>{name[index]}</a>
     </div>
-  );
-};
+  )
+)}
 
+
+ 
+ </>
+)
+}
 export default ResumeLink;

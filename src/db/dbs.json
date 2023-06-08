@@ -2,71 +2,71 @@
   "api": [
     {
       "profile": {
-        "name": "",
-        "designation": "",
-        "email": "",
-        "phone": "",
-        "location": "",
-        "website": ""
-      },
-      "about": "",
-      "academics": {
-        "school": "",
-        "college": "",
-        "university": "",
-        "certifications": "",
-        "title": "",
-        "year": "",
-        "writeup": ""
-      },
-      "experience": {
-        "designation": "",
-        "organisation": "",
-        "tenure": "",
-        "location": ""
-      },
-      "projects": {
-        "title": "",
-        "tenure": "",
-        "url": "",
-        "description": ""
-      },
-      "skills": "",
-      "id": 11
-    },
-    {
-      "profile": {
-        "name": "Narendra Chawda",
-        "designation": "This is my designation",
+        "name": "Akshay Sekhawat",
+        "designation": "Junior Associate",
         "email": "ndx199@gmail.com",
         "phone": "8130124194",
-        "location": "new de;hi",
+        "location": "delhi",
         "website": "ndr.com"
       },
       "about": "I am an engineering Graduate",
       "academics": {
         "school": "saraswati vidya mandir",
         "college": "this is my college",
-        "university": "This is my university",
+        "university": "Upgrad Learning",
         "certifications": "This is my certification",
-        "title": "this is my title",
-        "year": "1",
-        "writeup": "This is my write-up"
+        "title": "this is the title",
+        "year": "2023",
+        "writeup": "This is write-up"
       },
       "experience": {
         "designation": "",
-        "organisation": "This is my orgainisation",
+        "organisation": "organisation",
         "tenure": "1",
         "location": ""
       },
       "projects": {
         "title": "",
         "tenure": "",
-        "url": "this is url",
+        "url": "ww.ndr.com",
+        "description": "Description"
+      },
+      "skills": "HTML, CSS, JAVASCRIPT, REACT., NODE, MongoDB, Express",
+      "id": 13
+    },
+    {
+      "profile": {
+        "name": "Ranveer Singh",
+        "designation": "Associate",
+        "email": "ranveer123@gmail.com",
+        "phone": "8130124194",
+        "location": "delhi",
+        "website": "www.narendra.com"
+      },
+      "about": "I am an engineering Graduate",
+      "academics": {
+        "school": "saraswati vidya mandir",
+        "college": "this is my college",
+        "university": "Upgrad Learning",
+        "certifications": "This is my certification",
+        "title": "This is title",
+        "year": "2023",
+        "writeup": "This is write-up"
+      },
+      "experience": {
+        "designation": "",
+        "organisation": "organisation",
+        "tenure": "1",
+        "location": ""
+      },
+      "projects": {
+        "title": "",
+        "tenure": "",
+        "url": "www.tenure.com",
         "description": "This is Description"
       },
-      "skills": "HTML, CSS, JAVASCRIPT, REACT. NODE, ",
-      "id": 12
+      "skills": "HTML, CSS, JAVASCRIPT, REACT., NODE, MongoDB, Express",
+      "id": 14
     }
   ]
 }
